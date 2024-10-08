@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Updock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
 body {
   background-color: black;
@@ -8,5 +8,16 @@ body {
   text-align: center;
 }
 div {
-  font-family: "Updock", cursive;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem auto;
+  max-width: 500px;
+}
+strong {
+  text-align: right !important;
+}
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
 }
