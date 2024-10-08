@@ -1,8 +1,5 @@
 const xhr = new XMLHttpRequest();
-xhr.open(
-  "GET",
-  "https://thingproxy.freeboard.io/fetch/https://animechan.io/api/v1/quotes/random"
-);
+xhr.open("GET", "https://animechan.io/api/v1/quotes/random");
 xhr.onreadystatechange = function () {
   if (this.status === 200 && this.readyState === 4) {
     const data = JSON.parse(this.responseText);
